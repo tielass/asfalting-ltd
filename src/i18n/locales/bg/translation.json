@@ -1,0 +1,115 @@
+{  "header": {
+    "about": "За нас",
+    "services": "Услуги",
+    "projects": "Проекти",
+    "contact": "Контакти",
+    "language": "BG"
+  },  "hero": {
+    "title": "Качествени асфалтови решения",
+    "subtitle": "Професионално изграждане и поддръжка на пътища",
+    "cta": "Вземи оферта"
+  },
+  "about": {
+    "title": "Sobre Nuestra Empresa",
+    "description": "Con más de 20 años de experiencia en la industria, proporcionamos servicios de asfalto de alta calidad tanto para proyectos residenciales como comerciales. Nuestro equipo de expertos está dedicado a entregar resultados excepcionales garantizando seguridad y durabilidad.",
+    "history": "Más de 20 Años de Experiencia",
+    "historyText": "Dos décadas de excelencia en construcción de carreteras",
+    "expertise": "Equipo Experto",
+    "expertiseText": "Profesionales altamente calificados en nuestro equipo",
+    "quality": "Materiales de Calidad",
+    "qualityText": "Utilizamos solo materiales de primera calidad"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones Integrales de Asfalto",
+    "roadConstruction": {
+      "title": "Construcción de Carreteras",
+      "description": "Servicios completos de construcción de carreteras para sectores públicos y privados"
+    },
+    "asphaltPaving": {
+      "title": "Pavimentación de Asfalto",
+      "description": "Superficies de asfalto lisas y duraderas para todas sus necesidades"
+    },
+    "roadMaintenance": {
+      "title": "Mantenimiento de Carreteras",
+      "description": "Mantenimiento regular para prolongar la vida útil de su pavimento"
+    },
+    "concreteCurbing": {
+      "title": "Bordillos de Concreto",
+      "description": "Bordillos y bordes de precisión para carreteras y paisajes"
+    }
+  },
+  "projects": {
+    "title": "Nuestros Proyectos",
+    "subtitle": "Vea nuestro trabajo en acción",
+    "viewAll": "Ver Todos los Proyectos",
+    "project1": {
+      "title": "Expansión de la Autopista 95",
+      "description": "Importante proyecto de expansión de autopista completado a tiempo y por debajo del presupuesto"
+    },
+    "project2": {
+      "title": "Estacionamiento Comercial",
+      "description": "Instalación de estacionamiento comercial a gran escala con soluciones de drenaje"
+    },
+    "project3": {
+      "title": "Reparaciones de Carreteras Municipales",
+      "description": "Proyecto de reparación de carreteras en toda la ciudad que cubre más de 24 kilómetros de carreteras"
+    }
+  },
+  "testimonials": {
+    "title": "Testimonios de Clientes",
+    "subtitle": "Lo que nuestros clientes dicen sobre nosotros",
+    "testimonial1": {
+      "text": "El equipo de Asfalting Ltd entregó una calidad excepcional en nuestro proyecto comercial. Fueron profesionales, puntuales y el producto final superó nuestras expectativas.",
+      "author": "Juan Pérez",
+      "position": "Gerente de Propiedades"
+    },
+    "testimonial2": {
+      "text": "Hemos trabajado con muchos contratistas a lo largo de los años, pero ninguno se compara con la calidad y el servicio proporcionados por Asfalting Ltd. ¡Altamente recomendado!",
+      "author": "Sara Gómez",
+      "position": "Directora de Obras Municipales"
+    },
+    "testimonial3": {
+      "text": "Desde el principio hasta el final, el equipo de Asfalting Ltd fue comunicativo, profesional y entregó resultados sobresalientes en nuestro proyecto de entrada.",
+      "author": "Miguel Martínez",
+      "position": "Propietario"
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Comenzar su Proyecto?",
+    "subtitle": "Contáctenos hoy para un presupuesto gratuito sobre sus necesidades de asfalto",
+    "button": "Contáctenos"
+  },
+  "footer": {
+    "company": "Asfalting Ltd",
+    "address": "123 Vía de Construcción, Roadville, RV 56789",
+    "phone": "+1 (555) 123-4567",
+    "email": "info@asfaltingltd.com",
+    "copyright": "© 2023 Asfalting Ltd. Todos los derechos reservados.",
+    "links": {
+      "services": "Servicios",
+      "projects": "Proyectos",
+      "about": "Sobre Nosotros",
+      "contact": "Contacto",
+      "careers": "Carreras",
+      "privacy": "Política de Privacidad"
+    }
+  },
+  "contactForm": {
+    "title": "ГОТОВИ ЛИ СТЕ ДА ЗАПОЧНЕТЕ ВАШИЯ СЛЕДВАЩ ПРОЕКТ?",
+    "subtitle": "Свържете се с нас днес за безплатна консултация и оферта. Нашият екип от експерти е готов да помогне за реализирането на вашия пътен строителен проект.",
+    "name": "Пълно име*",
+    "email": "Имейл адрес*",
+    "phone": "Телефонен номер",
+    "message": "Допълнителна информация",
+    "submit": "Изпратете заявка",
+    "namePlaceholder": "Въведете пълното си име",
+    "emailPlaceholder": "Въведете вашия имейл адрес",
+    "messagePlaceholder": "Разкажете ни за вашия проект",
+    "success": "Благодарим за съобщението! Ще се свържем с вас скоро.",
+    "error": "Възникна грешка при изпращането на съобщението. Моля, опитайте отново.",
+    "required": "Задължително",
+    "invalidEmail": "Невалиден имейл адрес",
+    "invalidPhone": "Невалиден телефонен номер"
+  }
+}

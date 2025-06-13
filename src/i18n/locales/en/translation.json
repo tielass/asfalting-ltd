@@ -1,0 +1,117 @@
+{
+  "header": {
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact Us",
+    "language": "EN"
+  },
+  "hero": {
+    "title": "Quality Asphalt Solutions",
+    "subtitle": "Professional Road Construction & Maintenance",
+    "cta": "Get a Quote"
+  },
+  "about": {
+    "title": "About Our Company",
+    "description": "With over 20 years of experience in the industry, we provide top-quality asphalt services for both residential and commercial projects. Our team of experts is dedicated to delivering exceptional results while ensuring safety and durability.",
+    "history": "20+ Years of Experience",
+    "historyText": "Two decades of excellence in road construction",
+    "expertise": "Expert Team",
+    "expertiseText": "Highly qualified professionals in our crew",
+    "quality": "Quality Materials",
+    "qualityText": "We use only premium-grade materials"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive Asphalt Solutions",
+    "roadConstruction": {
+      "title": "Road Construction",
+      "description": "Complete road building services for public and private sectors"
+    },
+    "asphaltPaving": {
+      "title": "Asphalt Paving",
+      "description": "Smooth and durable asphalt surfaces for all your needs"
+    },
+    "roadMaintenance": {
+      "title": "Road Maintenance",
+      "description": "Regular maintenance to extend the life of your pavement"
+    },
+    "concreteCurbing": {
+      "title": "Concrete Curbing",
+      "description": "Precision curbing and edging for roads and landscapes"
+    }
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "See our work in action",
+    "viewAll": "View All Projects",
+    "project1": {
+      "title": "Highway 95 Expansion",
+      "description": "Major highway expansion project completed on time and under budget"
+    },
+    "project2": {
+      "title": "Commercial Parking Lot",
+      "description": "Large-scale commercial parking facility with drainage solutions"
+    },
+    "project3": {
+      "title": "Municipal Road Repairs",
+      "description": "City-wide road repair project covering over 15 miles of roadway"
+    }
+  },
+  "testimonials": {
+    "title": "Client Testimonials",
+    "subtitle": "What our clients say about us",
+    "testimonial1": {
+      "text": "The team at Asfalting Ltd delivered exceptional quality on our commercial project. They were professional, on time, and the finished product exceeded our expectations.",
+      "author": "John Smith",
+      "position": "Property Manager"
+    },
+    "testimonial2": {
+      "text": "We've worked with many contractors over the years, but none compare to the quality and service provided by Asfalting Ltd. Highly recommended!",
+      "author": "Sarah Johnson",
+      "position": "City Works Director"
+    },
+    "testimonial3": {
+      "text": "From start to finish, the team at Asfalting Ltd was communicative, professional, and delivered outstanding results on our driveway project.",
+      "author": "Michael Brown",
+      "position": "Homeowner"
+    }
+  },
+  "cta": {
+    "title": "Ready to Start Your Project?",
+    "subtitle": "Contact us today for a free quote on your asphalt needs",
+    "button": "Contact Us"
+  },
+  "footer": {
+    "company": "Asfalting Ltd",
+    "address": "123 Construction Way, Roadville, RV 56789",
+    "phone": "+1 (555) 123-4567",
+    "email": "info@asfaltingltd.com",
+    "copyright": "© 2023 Asfalting Ltd. All Rights Reserved.",
+    "links": {
+      "services": "Services",
+      "projects": "Projects",
+      "about": "About",
+      "contact": "Contact",
+      "careers": "Careers",
+      "privacy": "Privacy Policy"
+    }
+  },
+  "contactForm": {
+    "title": "READY TO START YOUR NEXT PROJECT?",
+    "subtitle": "Contact us today for a free consultation and quote. Our team of experts is ready to help bring your road construction project to life.",
+    "name": "Full Name*",
+    "email": "Email Address*",
+    "phone": "Phone Number",
+    "message": "Additional Information",
+    "submit": "Submit Request",
+    "namePlaceholder": "Enter your full name",
+    "emailPlaceholder": "Enter your email address",
+    "messagePlaceholder": "Tell us about your project",
+    "success": "Thank you for your message! We'll get back to you soon.",
+    "error": "There was an error sending your message. Please try again.",
+    "required": "Required",
+    "invalidEmail": "Invalid email address",
+    "invalidPhone": "Invalid phone number"
+  }
+}
