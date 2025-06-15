@@ -5,6 +5,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 // Import translation resources
 import enTranslation from "./locales/en/translation.json";
 import bgTranslation from "./locales/bg/translation.json";
+import deTranslation from "./locales/de/translation.json";
 
 // Configure i18next
 i18n
@@ -17,6 +18,9 @@ i18n
       },
       bg: {
         translation: bgTranslation,
+      },
+      de: {
+        translation: deTranslation,
       },
     },
     fallbackLng: "en", // Default language

@@ -3,7 +3,8 @@ import { ctaBackground } from "../../assets/images";
 
 export const CTASection = styled.section`
   padding: 5rem 2rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(${ctaBackground || "gray"});
   background-size: cover;
   background-position: center;

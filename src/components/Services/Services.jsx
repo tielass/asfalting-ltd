@@ -1,4 +1,5 @@
-import { Construction, Truck, Bolt, Cog } from "lucide-react";
+import { Construction, Truck, Bolt, Cog, Check } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import {
   ServicesSection,
   SectionTitle,
@@ -9,83 +10,151 @@ import {
   ServiceIcon,
   ServiceTitle,
   ServiceText,
-  ServiceLink,
-  ViewServicesButton,
+  ExpandedDescription,
 } from "./Services.styles";
 
 const Services = () => {
+  const { t, i18n } = useTranslation();
+
+  // Service details
+  // const serviceDetails = {
+  //   roadConstruction: {
+  //     features: [
+  //       "Complete project management",
+  //       "Surface preparation and grading",
+  //       "Drainage solutions",
+  //       "Environmental compliance",
+  //       "Traffic management planning",
+  //     ],
+  //   },
+  //   asphaltPaving: {
+  //     features: [
+  //       "Residential driveways",
+  //       "Commercial parking lots",
+  //       "Industrial facilities",
+  //       "Athletic courts and playgrounds",
+  //       "Specialized decorative asphalt",
+  //     ],
+  //   },
+  //   roadMaintenance: {
+  //     features: [
+  //       "Crack sealing and filling",
+  //       "Pothole repair",
+  //       "Sealcoating application",
+  //       "Line striping and marking",
+  //       "Annual maintenance programs",
+  //     ],
+  //   },
+  //   concreteCurbing: {
+  //     features: [
+  //       "Decorative landscape curbing",
+  //       "Commercial property edging",
+  //       "ADA-compliant sidewalk curbing",
+  //       "Parking lot islands and dividers",
+  //       "Custom designs and patterns",
+  //     ],
+  //   },
+  // };
+
   return (
     <ServicesSection id="services">
-      <SectionTitle>OUR SERVICES</SectionTitle>
-
+      <SectionTitle lang={i18n.language}>{t("services.title")}</SectionTitle>
       <ServicesContainer>
-        <ServiceDescription>
-          We provide a comprehensive range of road construction and
-          infrastructure services to meet all your project needs.
-        </ServiceDescription>
+        <ServiceDescription>{t("services.subtitle")}</ServiceDescription>
 
         <ServiceCardsContainer>
-          {" "}
           <ServiceCard>
             <ServiceIcon>
               <Truck size={40} strokeWidth={1.5} />
             </ServiceIcon>
-            <ServiceTitle>Road Construction</ServiceTitle>
+            <ServiceTitle lang={i18n.language}>
+              {t("services.roadConstruction.title")}
+            </ServiceTitle>
             <ServiceText>
-              Complete road construction services from planning to execution for
-              highways, local roads, and private developments.
+              {t("services.roadConstruction.description")}
             </ServiceText>
-            <ServiceLink href="#">Learn More →</ServiceLink>
+            <ExpandedDescription>
+              {t("services.roadConstruction.additionalInfo")}
+            </ExpandedDescription>
+            {/* <FeatureList>
+              {serviceDetails.roadConstruction.features.map(
+                (feature, index) => (
+                  <FeatureItem key={index}>
+                    <Check size={16} strokeWidth={2} />
+                    <span>{feature}</span>
+                  </FeatureItem>
+                )
+              )}
+            </FeatureList> */}
           </ServiceCard>
+
           <ServiceCard>
             <ServiceIcon>
               <Bolt size={40} strokeWidth={1.5} />
             </ServiceIcon>
-            <ServiceTitle>Asphalt Paving</ServiceTitle>
-            <ServiceText>
-              High-quality asphalt paving services for roads, parking lots,
-              driveways, and other surfaces.
-            </ServiceText>
-            <ServiceLink href="#">Learn More →</ServiceLink>
+            <ServiceTitle lang={i18n.language}>
+              {t("services.asphaltPaving.title")}
+            </ServiceTitle>
+            <ServiceText>{t("services.asphaltPaving.description")}</ServiceText>
+            <ExpandedDescription>
+              {t("services.asphaltPaving.additionalInfo")}
+            </ExpandedDescription>
+            {/* <FeatureList>
+              {serviceDetails.asphaltPaving.features.map((feature, index) => (
+                <FeatureItem key={index}>
+                  <Check size={16} strokeWidth={2} />
+                  <span>{feature}</span>
+                </FeatureItem>
+              ))}
+            </FeatureList> */}
           </ServiceCard>
+
           <ServiceCard>
             <ServiceIcon>
               <Cog size={40} strokeWidth={1.5} />
             </ServiceIcon>
-            <ServiceTitle>Earthworks</ServiceTitle>
+            <ServiceTitle lang={i18n.language}>
+              {t("services.roadMaintenance.title")}
+            </ServiceTitle>
             <ServiceText>
-              Comprehensive earthworks services including excavation, grading,
-              and site preparation.
+              {t("services.roadMaintenance.description")}
             </ServiceText>
-            <ServiceLink href="#">Learn More →</ServiceLink>
+            <ExpandedDescription>
+              {t("services.roadMaintenance.additionalInfo")}
+            </ExpandedDescription>
+            {/* <FeatureList>
+              {serviceDetails.roadMaintenance.features.map((feature, index) => (
+                <FeatureItem key={index}>
+                  <Check size={16} strokeWidth={2} />
+                  <span>{feature}</span>
+                </FeatureItem>
+              ))}
+            </FeatureList> */}
           </ServiceCard>
-          {/* <ServiceCard>
-            <ServiceIcon>
-              <Building size={40} strokeWidth={1.5} />
-            </ServiceIcon>
-            <ServiceTitle>Drainage Solutions</ServiceTitle>
-            <ServiceText>
-              Effective drainage systems to prevent water damage and ensure
-              longevity of road infrastructure.
-            </ServiceText>
-            <ServiceLink href="#">Learn More →</ServiceLink>
-          </ServiceCard>{" "} */}
+
           <ServiceCard>
             <ServiceIcon>
               <Construction size={40} strokeWidth={1.5} />
             </ServiceIcon>
-            <ServiceTitle>Infrastructure Development</ServiceTitle>
+            <ServiceTitle lang={i18n.language}>
+              {t("services.concreteCurbing.title")}
+            </ServiceTitle>
             <ServiceText>
-              Development of critical infrastructure including bridges,
-              culverts, and retaining walls.
+              {t("services.concreteCurbing.description")}
             </ServiceText>
-            <ServiceLink href="#">Learn More →</ServiceLink>
+            <ExpandedDescription>
+              {t("services.concreteCurbing.additionalInfo")}
+            </ExpandedDescription>
+            {/* <FeatureList>
+              {serviceDetails.concreteCurbing.features.map((feature, index) => (
+                <FeatureItem key={index}>
+                  <Check size={16} strokeWidth={2} />
+                  <span>{feature}</span>
+                </FeatureItem>
+              ))}
+            </FeatureList> */}
           </ServiceCard>
         </ServiceCardsContainer>
-
-        <ViewServicesButton href="#contact">
-          VIEW ALL SERVICES
-        </ViewServicesButton>
       </ServicesContainer>
     </ServicesSection>
   );

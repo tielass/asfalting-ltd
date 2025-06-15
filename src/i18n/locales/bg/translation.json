@@ -1,99 +1,114 @@
-{  "header": {
+{
+  "header": {
     "about": "За нас",
     "services": "Услуги",
     "projects": "Проекти",
     "contact": "Контакти",
     "language": "BG"
-  },  "hero": {
+  },
+  "hero": {
     "title": "Качествени асфалтови решения",
     "subtitle": "Професионално изграждане и поддръжка на пътища",
     "cta": "Вземи оферта"
   },
   "about": {
-    "title": "Sobre Nuestra Empresa",
-    "description": "Con más de 20 años de experiencia en la industria, proporcionamos servicios de asfalto de alta calidad tanto para proyectos residenciales como comerciales. Nuestro equipo de expertos está dedicado a entregar resultados excepcionales garantizando seguridad y durabilidad.",
-    "history": "Más de 20 Años de Experiencia",
-    "historyText": "Dos décadas de excelencia en construcción de carreteras",
-    "expertise": "Equipo Experto",
-    "expertiseText": "Profesionales altamente calificados en nuestro equipo",
-    "quality": "Materiales de Calidad",
-    "qualityText": "Utilizamos solo materiales de primera calidad"
+    "title": "За нашата компания",
+    "description": "С над 20 години опит в индустрията, ние предоставяме висококачествени асфалтови услуги както за жилищни, така и за търговски проекти. Нашият екип от експерти е отдаден на постигането на изключителни резултати, като гарантира безопасност и издръжливост.",
+    "history": "Над 20 години опит",
+    "historyText": "Две десетилетия съвършенство в пътното строителство",
+    "expertise": "Експертен екип",
+    "expertiseText": "Висококвалифицирани специалисти в нашия екип",
+    "quality": "Качествени материали",
+    "qualityText": "Използваме само материали от най-високо качество",
+    "imageAlt1": "Пътно-строителен проект, показващ асфалтиране",
+    "imageAlt2": "Отблизо на висококачествена асфалтова повърхност"
   },
   "services": {
-    "title": "Nuestros Servicios",
-    "subtitle": "Soluciones Integrales de Asfalto",
+    "title": "Нашите услуги",
+    "subtitle": "Всеобхватни асфалтови решения",
     "roadConstruction": {
-      "title": "Construcción de Carreteras",
-      "description": "Servicios completos de construcción de carreteras para sectores públicos y privados"
+      "title": "Пътно строителство",
+      "description": "Пълни услуги за изграждане на пътища за публичния и частния сектор",
+      "additionalInfo": "Нашите услуги за пътно строителство обхващат всичко - от планирането и проектирането до изпълнението и довършителните работи. С най-съвременно оборудване и опитни професионалисти, ние се справяме с проекти от всякакъв мащаб - от малки частни пътища до големи магистрали."
     },
     "asphaltPaving": {
-      "title": "Pavimentación de Asfalto",
-      "description": "Superficies de asfalto lisas y duraderas para todas sus necesidades"
+      "title": "Асфалтиране",
+      "description": "Гладки и устойчиви асфалтови повърхности за всички ваши нужди",
+      "additionalInfo": "Ние предлагаме висококачествени услуги за асфалтиране, които гарантират издръжливост и гладки повърхности. Нашият екип използва първокласни материали и съвременни техники за създаване на асфалтови повърхности, които издържат на интензивен трафик и тежки метеорологични условия."
     },
     "roadMaintenance": {
-      "title": "Mantenimiento de Carreteras",
-      "description": "Mantenimiento regular para prolongar la vida útil de su pavimento"
+      "title": "Поддръжка на пътища",
+      "description": "Редовна поддръжка за удължаване на живота на настилката",
+      "additionalInfo": "Редовната поддръжка е от решаващо значение за удължаване на живота на асфалтовите повърхности. Нашите услуги по поддръжка идентифицират и решават проблеми, преди те да се превърнат в скъпоструващи повреди, помагайки ви да защитите своята инвестиция."
     },
     "concreteCurbing": {
-      "title": "Bordillos de Concreto",
-      "description": "Bordillos y bordes de precisión para carreteras y paisajes"
+      "title": "Бетонни бордюри",
+      "description": "Прецизни бордюри и ръбове за пътища и ландшафт",
+      "additionalInfo": "Нашите услуги за бетонни бордюри предоставят както функционални, така и естетически ползи за вашия имот. Ние създаваме прецизни ръбове, които ограничават ландшафта, определят граници и подобряват отводняването, като същевременно подобряват цялостния външен вид."
     }
   },
   "projects": {
-    "title": "Nuestros Proyectos",
-    "subtitle": "Vea nuestro trabajo en acción",
-    "viewAll": "Ver Todos los Proyectos",
+    "title": "Нашите проекти",
+    "subtitle": "Вижте нашата работа в действие",
+    "viewAll": "Вижте всички проекти",
     "project1": {
-      "title": "Expansión de la Autopista 95",
-      "description": "Importante proyecto de expansión de autopista completado a tiempo y por debajo del presupuesto"
+      "title": "Разширение на магистрала 95",
+      "description": "Важен проект за разширяване на магистрала, завършен навреме и под бюджета"
     },
     "project2": {
-      "title": "Estacionamiento Comercial",
-      "description": "Instalación de estacionamiento comercial a gran escala con soluciones de drenaje"
+      "title": "Търговски паркинг",
+      "description": "Мащабно търговско парково съоръжение с решения за отводняване"
     },
     "project3": {
-      "title": "Reparaciones de Carreteras Municipales",
-      "description": "Proyecto de reparación de carreteras en toda la ciudad que cubre más de 24 kilómetros de carreteras"
+      "title": "Ремонт на общински пътища",
+      "description": "Проект за ремонт на пътища в целия град, обхващащ над 24 километра пътна мрежа"
     }
   },
   "testimonials": {
-    "title": "Testimonios de Clientes",
-    "subtitle": "Lo que nuestros clientes dicen sobre nosotros",
+    "title": "Отзиви от клиенти",
+    "subtitle": "Какво казват нашите клиенти за нас",
     "testimonial1": {
-      "text": "El equipo de Asfalting Ltd entregó una calidad excepcional en nuestro proyecto comercial. Fueron profesionales, puntuales y el producto final superó nuestras expectativas.",
-      "author": "Juan Pérez",
-      "position": "Gerente de Propiedades"
+      "text": "Екипът на Asfalting Ltd достави изключително качество на нашия търговски проект. Те бяха професионални, навреме и крайният продукт надмина очакванията ни.",
+      "author": "Иван Петров",
+      "position": "Мениджър имоти"
     },
     "testimonial2": {
-      "text": "Hemos trabajado con muchos contratistas a lo largo de los años, pero ninguno se compara con la calidad y el servicio proporcionados por Asfalting Ltd. ¡Altamente recomendado!",
-      "author": "Sara Gómez",
-      "position": "Directora de Obras Municipales"
+      "text": "Работили сме с много изпълнители през годините, но никой не се сравнява с качеството и услугите, предоставяни от Asfalting Ltd. Горещо препоръчвам!",
+      "author": "Мария Иванова",
+      "position": "Директор на общински работи"
     },
     "testimonial3": {
-      "text": "Desde el principio hasta el final, el equipo de Asfalting Ltd fue comunicativo, profesional y entregó resultados sobresalientes en nuestro proyecto de entrada.",
-      "author": "Miguel Martínez",
-      "position": "Propietario"
+      "text": "От началото до края екипът на Asfalting Ltd беше комуникативен, професионален и постигна отлични резултати по нашия проект за алея.",
+      "author": "Димитър Николов",
+      "position": "Собственик на имот"
     }
   },
   "cta": {
-    "title": "¿Listo para Comenzar su Proyecto?",
-    "subtitle": "Contáctenos hoy para un presupuesto gratuito sobre sus necesidades de asfalto",
-    "button": "Contáctenos"
+    "title": "Готови ли сте да започнете вашия проект?",
+    "subtitle": "Свържете се с нас днес за безплатна оферта за вашите нужди от асфалтиране",
+    "button": "Свържете се с нас"
   },
   "footer": {
-    "company": "Asfalting Ltd",
-    "address": "123 Vía de Construcción, Roadville, RV 56789",
-    "phone": "+1 (555) 123-4567",
-    "email": "info@asfaltingltd.com",
-    "copyright": "© 2023 Asfalting Ltd. Todos los derechos reservados.",
+    "company": "Асфалтинг ООД",
+    "companyDesc": "Българска компания с над 30 години опит в пътното строителство.",
+    "address": "ул. Панайот Хитов 9, Перник, 2300",
+    "phone": "+359 886 738 218",
+    "email": "asfalting@gmail.com",
+    "copyright": "© 2025 Асфалтинг ООД. Всички права запазени.",
     "links": {
-      "services": "Servicios",
-      "projects": "Proyectos",
-      "about": "Sobre Nosotros",
-      "contact": "Contacto",
-      "careers": "Carreras",
-      "privacy": "Política de Privacidad"
-    }
+      "services": "Услуги",
+      "projects": "Проекти",
+      "about": "За нас",
+      "contact": "Контакти",
+      "careers": "Кариери",
+      "privacy": "Политика за поверителност",
+      "terms": "Условия за ползване",
+      "home": "Начало"
+    },
+    "sitemap": "КАРТА НА САЙТА",
+    "servicesTitle": "УСЛУГИ",
+    "contactTitle": "КОНТАКТИ",
+    "allRightsReserved": "Всички права запазени."
   },
   "contactForm": {
     "title": "ГОТОВИ ЛИ СТЕ ДА ЗАПОЧНЕТЕ ВАШИЯ СЛЕДВАЩ ПРОЕКТ?",
@@ -111,5 +126,13 @@
     "required": "Задължително",
     "invalidEmail": "Невалиден имейл адрес",
     "invalidPhone": "Невалиден телефонен номер"
+  },
+  "privacy": {
+    "title": "Политика за поверителност",
+    "lastUpdated": "Последна актуализация"
+  },
+  "terms": {
+    "title": "Условия за ползване",
+    "lastUpdated": "Последна актуализация"
   }
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import {
   TestimonialsSection,
   SectionTitle,
@@ -14,28 +15,27 @@ import {
 } from "./Testimonials.styles";
 
 const Testimonials = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <TestimonialsSection>
-      <SectionTitle>WHAT OUR CLIENTS SAY</SectionTitle>
+      <SectionTitle lang={i18n.language}>
+        {t("testimonials.title")}
+      </SectionTitle>
 
       <TestimonialsContainer>
-        <TestimonialsIntro>
-          Don't just take our word for it. Here's what our clients have to say
-          about working with Stanley Roads.
-        </TestimonialsIntro>
+        <TestimonialsIntro>{t("testimonials.subtitle")}</TestimonialsIntro>
 
         <TestimonialsGrid>
           <TestimonialCard>
             <Stars>★★★★★</Stars>
             <TestimonialText>
-              "Stanley Roads delivered our highway project on time and on
-              budget. Their attention to detail and professional service
-              exceeded our expectations."
+              "{t("testimonials.testimonial1.text")}"
             </TestimonialText>
             <ClientInfo>
-              <ClientName>John Smith</ClientName>
+              <ClientName>{t("testimonials.testimonial1.author")}</ClientName>
               <ClientPosition>
-                Project Manager, Queensland Transport
+                {t("testimonials.testimonial1.position")}
               </ClientPosition>
             </ClientInfo>
           </TestimonialCard>
@@ -43,13 +43,12 @@ const Testimonials = () => {
           <TestimonialCard>
             <Stars>★★★★★</Stars>
             <TestimonialText>
-              "We've worked with Stanley Roads on over the past decade. Their
-              expertise in road construction is unmatched in the industry."
+              "{t("testimonials.testimonial2.text")}"
             </TestimonialText>
             <ClientInfo>
-              <ClientName>Sarah Johnson</ClientName>
+              <ClientName>{t("testimonials.testimonial2.author")}</ClientName>
               <ClientPosition>
-                Brisbane Regional Development Authority
+                {t("testimonials.testimonial2.position")}
               </ClientPosition>
             </ClientInfo>
           </TestimonialCard>
@@ -57,13 +56,13 @@ const Testimonials = () => {
           <TestimonialCard>
             <Stars>★★★★★</Stars>
             <TestimonialText>
-              "The team at Stanley Roads provided excellent solutions to our
-              complex drainage issues. Their technical knowledge and
-              problem-solving abilities are outstanding."
+              "{t("testimonials.testimonial3.text")}"
             </TestimonialText>
             <ClientInfo>
-              <ClientName>Michael Wong</ClientName>
-              <ClientPosition>Gold Coast City Council</ClientPosition>
+              <ClientName>{t("testimonials.testimonial3.author")}</ClientName>
+              <ClientPosition>
+                {t("testimonials.testimonial3.position")}
+              </ClientPosition>
             </ClientInfo>
           </TestimonialCard>
         </TestimonialsGrid>

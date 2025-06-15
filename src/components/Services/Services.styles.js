@@ -52,20 +52,23 @@ export const ServiceCard = styled.div`
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   text-align: left;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  border-left: 3px solid #ff6600;
 
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  }
+  // &:hover {
+  //   transform: translateY(-5px);
+  //   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  // }
 `;
 
 export const ServiceIcon = styled.div`
   margin-bottom: 1.5rem;
   color: #ff6600;
   display: flex;
-//   justify-content: center;
-//   align-items: center;
   height: 60px;
 `;
 
@@ -85,15 +88,37 @@ export const ServiceText = styled.p`
   line-height: 1.5;
 `;
 
-export const ServiceLink = styled.a`
-  color: #ff6600;
-  text-decoration: none;
-  font-weight: 600;
-  display: inline-block;
-  transition: color 0.3s ease;
+export const ExpandedDescription = styled.p`
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 1.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed rgba(0, 0, 0, 0.1);
+`;
 
-  &:hover {
-    color: #e65c00;
+export const FeatureList = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+`;
+
+export const FeatureItem = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+
+  svg {
+    color: #ff6600;
+    min-width: 16px;
+    flex-shrink: 0;
+    height: 16px;
+    width: 16px;
   }
 `;
 

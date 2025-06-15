@@ -1,0 +1,138 @@
+{
+  "header": {
+    "about": "Über uns",
+    "services": "Leistungen",
+    "projects": "Projekte",
+    "contact": "Kontakt",
+    "language": "DE"
+  },
+  "hero": {
+    "title": "Qualitäts-Asphaltlösungen",
+    "subtitle": "Professioneller Straßenbau & Instandhaltung",
+    "cta": "Angebot anfordern"
+  },
+  "about": {
+    "title": "Über unser Unternehmen",
+    "description": "Mit über 20 Jahren Erfahrung in der Branche bieten wir hochwertige Asphaltdienstleistungen sowohl für Wohn- als auch für Gewerbeprojekte. Unser Expertenteam ist bestrebt, außergewöhnliche Ergebnisse zu erzielen und gleichzeitig Sicherheit und Langlebigkeit zu gewährleisten.",
+    "history": "Über 20 Jahre Erfahrung",
+    "historyText": "Zwei Jahrzehnte Exzellenz im Straßenbau",
+    "expertise": "Expertenteam",
+    "expertiseText": "Hochqualifizierte Fachleute in unserer Mannschaft",
+    "quality": "Qualitätsmaterialien",
+    "qualityText": "Wir verwenden ausschließlich Materialien von höchster Qualität",
+    "imageAlt1": "Straßenbauprojekt mit Asphaltierung",
+    "imageAlt2": "Nahaufnahme einer hochwertigen Asphaltoberfläche"
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Umfassende Asphaltlösungen",
+    "roadConstruction": {
+      "title": "Straßenbau",
+      "description": "Komplette Straßenbaudienstleistungen für öffentliche und private Sektoren",
+      "additionalInfo": "Unsere Straßenbaudienstleistungen umfassen alles von der Planung und dem Design bis zur Umsetzung und Fertigstellung. Mit modernster Ausrüstung und erfahrenen Fachleuten bewältigen wir Projekte jeder Größe - von kleinen Privatstraßen bis hin zu großen Autobahnen."
+    },
+    "asphaltPaving": {
+      "title": "Asphaltierung",
+      "description": "Glatte und langlebige Asphaltoberflächen für all Ihre Bedürfnisse",
+      "additionalInfo": "Wir bieten hochwertige Asphaltierungsdienste, die Langlebigkeit und glatte Oberflächen gewährleisten. Unser Team verwendet erstklassige Materialien und fortschrittliche Techniken, um Asphaltoberflächen zu schaffen, die starkem Verkehr und rauen Wetterbedingungen standhalten."
+    },
+    "roadMaintenance": {
+      "title": "Straßeninstandhaltung",
+      "description": "Regelmäßige Wartung zur Verlängerung der Lebensdauer Ihres Belags",
+      "additionalInfo": "Regelmäßige Wartung ist entscheidend für die Verlängerung der Lebensdauer von Asphaltoberflächen. Unsere Wartungsdienste erkennen und beheben Probleme, bevor sie zu kostspieligen Schäden werden, und helfen Ihnen, Ihre Investition zu schützen."
+    },
+    "concreteCurbing": {
+      "title": "Betonbordsteine",
+      "description": "Präzise Bordsteine und Einfassungen für Straßen und Landschaften",
+      "additionalInfo": "Unsere Betonbordstein-Dienstleistungen bieten sowohl funktionale als auch ästhetische Vorteile für Ihr Grundstück. Wir schaffen präzise Kanten, die Landschaftselemente enthalten, Grenzen definieren und die Entwässerung verbessern, während sie gleichzeitig das Gesamtbild verschönern."
+    }
+  },
+  "projects": {
+    "title": "Unsere Projekte",
+    "subtitle": "Sehen Sie unsere Arbeit in Aktion",
+    "viewAll": "Alle Projekte ansehen",
+    "project1": {
+      "title": "Autobahn 95 Erweiterung",
+      "description": "Großes Autobahnausbauprojekt, termingerecht und unter Budget abgeschlossen"
+    },
+    "project2": {
+      "title": "Gewerblicher Parkplatz",
+      "description": "Großflächige kommerzielle Parkanlage mit Entwässerungslösungen"
+    },
+    "project3": {
+      "title": "Kommunale Straßenreparaturen",
+      "description": "Stadtweites Straßenreparaturprojekt, das über 24 Kilometer Straßennetz umfasst"
+    }
+  },
+  "testimonials": {
+    "title": "Kundenbewertungen",
+    "subtitle": "Was unsere Kunden über uns sagen",
+    "testimonial1": {
+      "text": "Das Team von Asfalting Ltd hat bei unserem Gewerbeprojekt eine außergewöhnliche Qualität geliefert. Sie waren professionell, pünktlich und das Endprodukt übertraf unsere Erwartungen.",
+      "author": "Johannes Schmidt",
+      "position": "Immobilienverwalter"
+    },
+    "testimonial2": {
+      "text": "Wir haben über die Jahre mit vielen Auftragnehmern zusammengearbeitet, aber keiner kommt an die Qualität und den Service von Asfalting Ltd heran. Sehr empfehlenswert!",
+      "author": "Sarah Müller",
+      "position": "Leiterin der Stadtwerke"
+    },
+    "testimonial3": {
+      "text": "Von Anfang bis Ende war das Team von Asfalting Ltd kommunikativ, professionell und hat bei unserem Einfahrtsprojekt hervorragende Ergebnisse erzielt.",
+      "author": "Michael Becker",
+      "position": "Hausbesitzer"
+    }
+  },
+  "cta": {
+    "title": "Bereit, Ihr Projekt zu starten?",
+    "subtitle": "Kontaktieren Sie uns noch heute für ein kostenloses Angebot für Ihre Asphaltbedürfnisse",
+    "button": "Kontaktieren Sie uns"
+  },
+  "footer": {
+    "company": "Asfalting GmbH",
+    "companyDesc": "In Bulgarien ansässiges Unternehmen mit über 30 Jahren Erfahrung im Straßenbau.",
+    "address": "Panaiot Hitov 9, Pernik 2300, Bulgarien",
+    "phone": "+359 0886 738 218",
+    "email": "asfalting@gmail.com",
+    "copyright": "© 2025 Asfalting GmbH. Alle Rechte vorbehalten.",
+    "links": {
+      "services": "Leistungen",
+      "projects": "Projekte",
+      "about": "Über uns",
+      "contact": "Kontakt",
+      "careers": "Karriere",
+      "privacy": "Datenschutzrichtlinie",
+      "terms": "Nutzungsbedingungen",
+      "home": "Startseite"
+    },
+    "sitemap": "SEITENÜBERSICHT",
+    "servicesTitle": "LEISTUNGEN",
+    "contactTitle": "KONTAKT",
+    "allRightsReserved": "Alle Rechte vorbehalten."
+  },
+  "contactForm": {
+    "title": "BEREIT, IHR NÄCHSTES PROJEKT ZU STARTEN?",
+    "subtitle": "Kontaktieren Sie uns noch heute für eine kostenlose Beratung und ein Angebot. Unser Expertenteam steht bereit, um Ihr Straßenbauprojekt zum Leben zu erwecken.",
+    "name": "Vollständiger Name*",
+    "email": "E-Mail-Adresse*",
+    "phone": "Telefonnummer",
+    "message": "Zusätzliche Informationen",
+    "submit": "Anfrage absenden",
+    "namePlaceholder": "Geben Sie Ihren vollständigen Namen ein",
+    "emailPlaceholder": "Geben Sie Ihre E-Mail-Adresse ein",
+    "messagePlaceholder": "Erzählen Sie uns von Ihrem Projekt",
+    "success": "Vielen Dank für Ihre Nachricht! Wir melden uns in Kürze bei Ihnen.",
+    "error": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+    "required": "Erforderlich",
+    "invalidEmail": "Ungültige E-Mail-Adresse",
+    "invalidPhone": "Ungültige Telefonnummer"
+  },
+  "privacy": {
+    "title": "Datenschutzrichtlinie",
+    "lastUpdated": "Zuletzt aktualisiert"
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert"
+  }
+}

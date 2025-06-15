@@ -19,26 +19,32 @@
     "expertise": "Expert Team",
     "expertiseText": "Highly qualified professionals in our crew",
     "quality": "Quality Materials",
-    "qualityText": "We use only premium-grade materials"
+    "qualityText": "We use only premium-grade materials",
+    "imageAlt1": "Road construction project showing asphalt paving",
+    "imageAlt2": "Close-up of high-quality asphalt surface"
   },
   "services": {
     "title": "Our Services",
     "subtitle": "Comprehensive Asphalt Solutions",
     "roadConstruction": {
       "title": "Road Construction",
-      "description": "Complete road building services for public and private sectors"
+      "description": "Complete road building services for public and private sectors",
+      "additionalInfo": "Our road construction services encompass everything from planning and design to implementation and finishing. With state-of-the-art equipment and experienced professionals, we handle projects of all sizes - from small private roads to major highways."
     },
     "asphaltPaving": {
       "title": "Asphalt Paving",
-      "description": "Smooth and durable asphalt surfaces for all your needs"
+      "description": "Smooth and durable asphalt surfaces for all your needs",
+      "additionalInfo": "We deliver high-quality asphalt paving services that ensure durability and smooth surfaces. Our team uses premium materials and advanced techniques to create asphalt surfaces that withstand heavy traffic and severe weather conditions."
     },
     "roadMaintenance": {
       "title": "Road Maintenance",
-      "description": "Regular maintenance to extend the life of your pavement"
+      "description": "Regular maintenance to extend the life of your pavement",
+      "additionalInfo": "Regular maintenance is crucial for extending the lifespan of asphalt surfaces. Our maintenance services identify and address issues before they become costly problems, helping you protect your investment."
     },
     "concreteCurbing": {
       "title": "Concrete Curbing",
-      "description": "Precision curbing and edging for roads and landscapes"
+      "description": "Precision curbing and edging for roads and landscapes",
+      "additionalInfo": "Our concrete curbing services provide both functional and aesthetic benefits to your property. We create precise edges that contain landscaping, define boundaries, and improve drainage while enhancing the overall appearance."
     }
   },
   "projects": {
@@ -84,18 +90,25 @@
   },
   "footer": {
     "company": "Asfalting Ltd",
-    "address": "123 Construction Way, Roadville, RV 56789",
-    "phone": "+1 (555) 123-4567",
-    "email": "info@asfaltingltd.com",
-    "copyright": "© 2023 Asfalting Ltd. All Rights Reserved.",
+    "companyDesc": "Bulgaria-based company with over 30 years experience in road construction.",
+    "address": "Panaiot Hitov 9, Pernik 2300, Bulgaria",
+    "phone": "+359 886 738 218",
+    "email": "asfalting@gmail.com",
+    "copyright": "© 2025 Asfalting Ltd. All Rights Reserved.",
     "links": {
       "services": "Services",
       "projects": "Projects",
       "about": "About",
       "contact": "Contact",
       "careers": "Careers",
-      "privacy": "Privacy Policy"
-    }
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "home": "Home"
+    },
+    "sitemap": "SITEMAP",
+    "servicesTitle": "SERVICES",
+    "contactTitle": "CONTACT US",
+    "allRightsReserved": "All rights reserved."
   },
   "contactForm": {
     "title": "READY TO START YOUR NEXT PROJECT?",
@@ -113,5 +126,13 @@
     "required": "Required",
     "invalidEmail": "Invalid email address",
     "invalidPhone": "Invalid phone number"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated"
   }
 }

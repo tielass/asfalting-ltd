@@ -91,6 +91,15 @@ export const ContactItem = styled.p`
   color: #ccc;
   margin-bottom: 0.8rem;
   font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+`;
+
+export const ContactIconWrapper = styled.span`
+  color: #ff6600;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
 `;
 
 export const FooterBottom = styled.div`

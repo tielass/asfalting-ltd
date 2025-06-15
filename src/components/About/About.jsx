@@ -1,4 +1,4 @@
-import React from "react";
+import { useTranslation } from "react-i18next";
 import {
   AboutSection,
   SectionTitle,
@@ -11,22 +11,20 @@ import {
   FeatureIcon,
   FeatureTitle,
   FeatureText,
-  ImagePlaceholder,
-  LearnMoreButton,
+  AboutImage,
+  ImageContainer,
 } from "./About.styles";
+import { aboutImages } from "../../assets/images";
 
 const About = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <AboutSection id="about">
       <AboutContainer>
         <TextColumn>
-        <SectionTitle>WHO WE ARE</SectionTitle>
-          <AboutDescription>
-            Stanley Roads is a Queensland based company with a company heritage
-            of over 50 years experience and expertise in the road construction
-            industry. Dedicated to enhancing the road construction industry in
-            Australia by providing the highest quality products and services.
-          </AboutDescription>
+          <SectionTitle lang={i18n.language}>{t("about.title")}</SectionTitle>
+          <AboutDescription>{t("about.description")}</AboutDescription>
 
           <FeatureList>
             <FeatureItem>
@@ -53,11 +51,10 @@ const About = () => {
                 </svg>
               </FeatureIcon>
               <div>
-                <FeatureTitle>EXPERIENCED TEAM</FeatureTitle>
-                <FeatureText>
-                  Our team brings decades of combined experience in road
-                  construction.
-                </FeatureText>
+                <FeatureTitle lang={i18n.language}>
+                  {t("about.history")}
+                </FeatureTitle>
+                <FeatureText>{t("about.historyText")}</FeatureText>
               </div>
             </FeatureItem>
 
@@ -85,11 +82,10 @@ const About = () => {
                 </svg>
               </FeatureIcon>
               <div>
-                <FeatureTitle>QUALITY ASSURANCE</FeatureTitle>
-                <FeatureText>
-                  We maintain the highest standards in all our projects with
-                  rigorous quality control.
-                </FeatureText>
+                <FeatureTitle lang={i18n.language}>
+                  {t("about.expertise")}
+                </FeatureTitle>
+                <FeatureText>{t("about.expertiseText")}</FeatureText>
               </div>
             </FeatureItem>
 
@@ -117,19 +113,30 @@ const About = () => {
                 </svg>
               </FeatureIcon>
               <div>
-                <FeatureTitle>MODERN EQUIPMENT</FeatureTitle>
-                <FeatureText>
-                  Using the latest technology and machinery for efficient and
-                  precise construction.
-                </FeatureText>
+                <FeatureTitle lang={i18n.language}>
+                  {t("about.quality")}
+                </FeatureTitle>
+                <FeatureText>{t("about.qualityText")}</FeatureText>
               </div>
             </FeatureItem>
           </FeatureList>
         </TextColumn>
 
         <ImagesColumn>
-          <ImagePlaceholder className="large" />
-          <ImagePlaceholder className="small" />
+          <ImageContainer className="large">
+            <AboutImage
+              src={aboutImages.image1}
+              alt={t("about.imageAlt1")}
+              loading="lazy"
+            />
+          </ImageContainer>
+          <ImageContainer className="small">
+            <AboutImage
+              src={aboutImages.image2}
+              alt={t("about.imageAlt2")}
+              loading="lazy"
+            />
+          </ImageContainer>
         </ImagesColumn>
       </AboutContainer>
     </AboutSection>

@@ -2,7 +2,8 @@ import styled from "@emotion/styled";
 import { heroBackground } from "../../assets/images";
 
 export const HeroSection = styled.section`
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(${heroBackground || "gray"});
   background-size: cover;
   background-position: center;

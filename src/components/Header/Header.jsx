@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Origami, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import {
   HeaderContainer,
@@ -16,6 +16,7 @@ import {
   MobileLanguageOptions,
 } from "./Header.styles";
 import { HeaderWrapper } from "./Header.styles";
+import logoImage from "../../assets/asfalting-logo.svg";
 
 const Header = () => {
   const { t, i18n } = useTranslation();
@@ -54,8 +55,11 @@ const Header = () => {
     <HeaderWrapper>
       <HeaderContainer>
         <Logo>
-          <Origami size={40} strokeWidth={1.5} color="#ff6600" />
-          <p>Asfalting ltd</p>
+          <img
+            src={logoImage}
+            alt="Company Logo"
+            style={{ width: "140px", height: "auto", marginRight: "1rem" }}
+          />
         </Logo>
 
         {/* Desktop Navigation */}
@@ -72,7 +76,11 @@ const Header = () => {
             <LanguageButton
               onClick={() => setShowLanguageOptions(!showLanguageOptions)}
             >
-              {i18n.language === "bg" ? "BG" : "EN"}
+              {i18n.language === "bg"
+                ? "BG"
+                : i18n.language === "de"
+                  ? "DE"
+                  : "EN"}
             </LanguageButton>
             {showLanguageOptions && (
               <DropdownContent>
@@ -88,6 +96,12 @@ const Header = () => {
                   onClick={(e) => handleLanguageChange(e, "bg")}
                 >
                   BG
+                </NavItem>
+                <NavItem
+                  href="#"
+                  onClick={(e) => handleLanguageChange(e, "de")}
+                >
+                  DE
                 </NavItem>
               </DropdownContent>
             )}
@@ -110,6 +124,12 @@ const Header = () => {
                 {t("header.about")}
               </MobileNavItem>
               <MobileNavItem
+                href="#services"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                {t("header.services")}
+              </MobileNavItem>
+              <MobileNavItem
                 href="#projects"
                 onClick={() => setMobileMenuOpen(false)}
               >
@@ -124,6 +144,7 @@ const Header = () => {
               <MobileLanguageOptions>
                 <div onClick={(e) => handleLanguageChange(e, "en")}>EN</div>
                 <div onClick={(e) => handleLanguageChange(e, "bg")}>BG</div>
+                <div onClick={(e) => handleLanguageChange(e, "de")}>DE</div>
               </MobileLanguageOptions>
             </MobileNav>
           </MobileNavOverlay>

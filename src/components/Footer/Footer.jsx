@@ -10,58 +10,86 @@ import {
   FooterLink,
   ContactInfo,
   ContactItem,
+  ContactIconWrapper,
   FooterBottom,
   Copyright,
 } from "./Footer.styles";
+import { MapPin, Phone, Mail } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
+  const fullYear = new Date().getFullYear();
+
   return (
     <FooterContainer id="contact">
       <FooterContent>
         <FooterLogo>
-          <CompanyInfo>
-            Queensland-based company with over 50 years experience in road
-            construction.
-          </CompanyInfo>
+          <CompanyInfo>{t("footer.companyDesc")}</CompanyInfo>
         </FooterLogo>
 
         <FooterInfo>
           <FooterLinks>
             <LinksColumn>
-              <ColumnTitle>SITEMAP</ColumnTitle>
-              <FooterLink href="#home">Home</FooterLink>
-              <FooterLink href="#about">About Us</FooterLink>
-              <FooterLink href="#services">Services</FooterLink>
-              <FooterLink href="#projects">Projects</FooterLink>
-              <FooterLink href="#contact">Contact</FooterLink>
+              <ColumnTitle>{t("footer.sitemap")}</ColumnTitle>
+              <FooterLink href="#home">{t("footer.links.home")}</FooterLink>
+              <FooterLink href="#about">{t("footer.links.about")}</FooterLink>
+              <FooterLink href="#services">
+                {t("footer.links.services")}
+              </FooterLink>
+              <FooterLink href="#projects">
+                {t("footer.links.projects")}
+              </FooterLink>
+              <FooterLink href="#contact">
+                {t("footer.links.contact")}
+              </FooterLink>
             </LinksColumn>
 
             <LinksColumn>
-              <ColumnTitle>SERVICES</ColumnTitle>
-              <FooterLink href="#">Road Construction</FooterLink>
-              <FooterLink href="#">Asphalt Paving</FooterLink>
-              <FooterLink href="#">Earthworks</FooterLink>
-              <FooterLink href="#">Drainage Solutions</FooterLink>
-              <FooterLink href="#">Infrastructure</FooterLink>
+              <ColumnTitle>{t("footer.servicesTitle")}</ColumnTitle>
+              <FooterLink href="#">
+                {t("services.roadConstruction.title")}
+              </FooterLink>
+              <FooterLink href="#">
+                {t("services.asphaltPaving.title")}
+              </FooterLink>
+              <FooterLink href="#">
+                {t("services.roadMaintenance.title")}
+              </FooterLink>
+              <FooterLink href="#">
+                {t("services.concreteCurbing.title")}
+              </FooterLink>
             </LinksColumn>
           </FooterLinks>
 
           <ContactInfo>
-            <ColumnTitle>CONTACT US</ColumnTitle>
-            <ContactItem>123 Construction Way</ContactItem>
-            <ContactItem>Brisbane, QLD 4000, Australia</ContactItem>
-            <ContactItem>(07) 1234 5678</ContactItem>
-            <ContactItem>info@stanleyroads.com.au</ContactItem>
+            <ColumnTitle>{t("footer.contactTitle")}</ColumnTitle>
+            <ContactItem>
+              <ContactIconWrapper>
+                <MapPin size={18} strokeWidth={1.5} />
+              </ContactIconWrapper>
+              {t("footer.address")}
+            </ContactItem>
+            <ContactItem>
+              <ContactIconWrapper>
+                <Phone size={18} strokeWidth={1.5} />
+              </ContactIconWrapper>
+              {t("footer.phone")}
+            </ContactItem>
+            <ContactItem>
+              <ContactIconWrapper>
+                <Mail size={18} strokeWidth={1.5} />
+              </ContactIconWrapper>
+              {t("footer.email")}
+            </ContactItem>
           </ContactInfo>
         </FooterInfo>
       </FooterContent>
 
       <FooterBottom>
-        <Copyright>© 2025 Stanley Roads. All rights reserved.</Copyright>
-        <div>
-          <FooterLink href="#">Privacy Policy</FooterLink>
-          <FooterLink href="#">Terms of Service</FooterLink>
-        </div>
+        <Copyright>
+          © {fullYear} {t("footer.company")}. {t("footer.allRightsReserved")}
+        </Copyright>
       </FooterBottom>
     </FooterContainer>
   );

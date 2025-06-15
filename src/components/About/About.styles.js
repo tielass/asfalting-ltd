@@ -104,13 +104,26 @@ export const FeatureText = styled.p`
   line-height: 1.5;
 `;
 
-export const ImagePlaceholder = styled.div`
-  background-color: #e5e5e5;
+export const AboutImage = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 4px;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+`;
+
+export const ImageContainer = styled.div`
   overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 
   &.large {
     height: 370px;
+    grid-column: 1;
 
     @media (min-width: 1200px) {
       height: 370px;
@@ -120,9 +133,18 @@ export const ImagePlaceholder = styled.div`
   &.small {
     height: 320px;
     margin-top: 5rem;
+    grid-column: 2;
 
     @media (min-width: 1200px) {
       height: 370px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    &.large,
+    &.small {
+      height: 250px;
+      margin-top: 0;
     }
   }
 `;

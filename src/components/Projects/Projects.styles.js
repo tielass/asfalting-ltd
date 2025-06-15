@@ -95,7 +95,9 @@ export const ViewAllButton = styled.a`
   font-weight: 600;
   border: 2px solid #333;
   border-radius: 4px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 
   &:hover {
     background-color: #333;

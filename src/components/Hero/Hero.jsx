@@ -16,7 +16,7 @@ const Hero = () => {
   const currentLang = i18n.language;
 
   return (
-    <HeroSection>
+    <HeroSection id="hero">
       <HeroContent>
         <Heading lang={currentLang}>{t("hero.title")}</Heading>
         <Subheading lang={currentLang}>{t("hero.subtitle")}</Subheading>

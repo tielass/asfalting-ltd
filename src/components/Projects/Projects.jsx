@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { projectImages } from "../../assets/images";
 import {
   ProjectsSection,
@@ -14,26 +15,28 @@ import {
 } from "./Projects.styles";
 
 const Projects = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <ProjectsSection id="projects">
-      <SectionTitle>FEATURED PROJECTS</SectionTitle>
+      <SectionTitle lang={i18n.language}>{t("projects.title")}</SectionTitle>
 
       <ProjectsContainer>
-        <ProjectDescription>
-          Explore our portfolio of successful road construction and
-          infrastructure projects across Queensland and beyond.
-        </ProjectDescription>
+        <ProjectDescription>{t("projects.subtitle")}</ProjectDescription>
 
         <ProjectCardsContainer>
-          {" "}
           <ProjectCard>
             <ProjectImage
               style={{
                 backgroundImage: `url(${projectImages.roadConstruction})`,
               }}
             />
-            <ProjectCategory>Road Construction</ProjectCategory>
-            <ProjectTitle>PACIFIC HIGHWAY UPGRADE</ProjectTitle>
+            <ProjectCategory>
+              {t("services.roadConstruction.title")}
+            </ProjectCategory>
+            <ProjectTitle lang={i18n.language}>
+              {t("projects.project1.title")}
+            </ProjectTitle>
           </ProjectCard>
           <ProjectCard>
             <ProjectImage
@@ -41,19 +44,27 @@ const Projects = () => {
                 backgroundImage: `url(${projectImages.infrastructure})`,
               }}
             />
-            <ProjectCategory>Infrastructure</ProjectCategory>
-            <ProjectTitle>BRISBANE AIRPORT ACCESS ROAD</ProjectTitle>
+            <ProjectCategory>
+              {t("services.concreteCurbing.title")}
+            </ProjectCategory>
+            <ProjectTitle lang={i18n.language}>
+              {t("projects.project2.title")}
+            </ProjectTitle>
           </ProjectCard>
           <ProjectCard>
             <ProjectImage
               style={{ backgroundImage: `url(${projectImages.asphaltPaving})` }}
             />
-            <ProjectCategory>Asphalt Paving</ProjectCategory>
-            <ProjectTitle>GOLD COAST COMMERCIAL DEVELOPMENT</ProjectTitle>
+            <ProjectCategory>
+              {t("services.asphaltPaving.title")}
+            </ProjectCategory>
+            <ProjectTitle lang={i18n.language}>
+              {t("projects.project3.title")}
+            </ProjectTitle>
           </ProjectCard>
         </ProjectCardsContainer>
 
-        <ViewAllButton href="#">View All Projects</ViewAllButton>
+        <ViewAllButton href="#">{t("projects.viewAll")}</ViewAllButton>
       </ProjectsContainer>
     </ProjectsSection>
   );
