@@ -1,4 +1,4 @@
-import heroImage from "./asfalting-hero-small.jpg";
+import heroImage from "./asfalting-hero-small.webp";
 import aboutImage1 from "./asfalting-about-small-1.webp";
 import aboutImage2 from "./asfalting-about-small-2.webp";
 import projectImage1 from "./asfalting-projects-1.webp";
