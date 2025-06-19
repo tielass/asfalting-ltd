@@ -23,27 +23,27 @@ const Header = () => {
   const [showLanguageOptions, setShowLanguageOptions] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const handleLanguageChange = (event, lang) => {
-  // Prevent default behavior which causes page to scroll to top
-  if (event) {
-    event.preventDefault();
-  }
+    // Prevent default behavior which causes page to scroll to top
+    if (event) {
+      event.preventDefault();
+    }
 
-  // Remember current scroll position
-  const scrollPosition =
-    window.pageYOffset || document.documentElement.scrollTop;
+    // Remember current scroll position
+    const scrollPosition =
+      window.pageYOffset || document.documentElement.scrollTop;
 
-  i18n.changeLanguage(lang.toLowerCase());
-  setShowLanguageOptions(false);
-  setMobileMenuOpen(false);
+    i18n.changeLanguage(lang.toLowerCase());
+    setShowLanguageOptions(false);
+    setMobileMenuOpen(false);
 
-  // Restore scroll position after a small delay to ensure rendering is complete
-  setTimeout(() => {
-    window.scrollTo(0, scrollPosition);
-  }, 100);
+    // Restore scroll position after a small delay to ensure rendering is complete
+    setTimeout(() => {
+      window.scrollTo(0, scrollPosition);
+    }, 100);
 
-  // FIX: Reset body overflow when closing mobile menu via language change
-  document.body.style.overflow = "";
-};
+    // FIX: Reset body overflow when closing mobile menu via language change
+    document.body.style.overflow = "";
+  };
   const toggleMobileMenu = () => {
     const newMenuState = !mobileMenuOpen;
     setMobileMenuOpen(newMenuState);

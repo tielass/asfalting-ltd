@@ -48,12 +48,12 @@ export const Logo = styled.div`
     font-size: 1.2rem;
 
     img {
-      width: 90px; 
+      width: 90px;
       height: auto;
     }
 
     p {
-      display: none; 
+      display: none;
 
       @media (min-width: 400px) {
         display: block;
@@ -133,6 +133,10 @@ export const MobileMenuButton = styled.button`
   cursor: pointer;
   padding: 0.5rem;
   z-index: 1001;
+
+  &:focus {
+    outline: none;
+  }
 
   @media (max-width: 768px) {
     display: block;
