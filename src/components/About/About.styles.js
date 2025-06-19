@@ -59,6 +59,16 @@ export const ImagesColumn = styled.div`
     order: 0;
     margin-bottom: 2rem;
   }
+
+  @media (max-width: 576px) {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+
+    // Hide all but the first image
+    > *:not(:first-child) {
+      display: none;
+    }
+  }
 `;
 
 export const AboutDescription = styled.p`

@@ -36,13 +36,24 @@ export const Logo = styled.div`
   font-size: 1.5rem;
   font-weight: 700;
   color: #333;
-  z-index: 1001; /* Keep logo above mobile menu */
+  z-index: 1001;
+
+  img {
+    width: 140px;
+    height: auto;
+    margin-right: 1rem;
+  }
 
   @media (max-width: 768px) {
     font-size: 1.2rem;
 
+    img {
+      width: 90px; 
+      height: auto;
+    }
+
     p {
-      display: none; /* Hide text on very small screens */
+      display: none; 
 
       @media (min-width: 400px) {
         display: block;

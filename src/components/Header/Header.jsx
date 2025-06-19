@@ -58,7 +58,7 @@ const Header = () => {
           <img
             src={logoImage}
             alt="Company Logo"
-            style={{ width: "140px", height: "auto", marginRight: "1rem" }}
+            // style={{ width: "140px", height: "auto", marginRight: "1rem" }}
           />
         </Logo>
 
